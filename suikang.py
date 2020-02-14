@@ -24,7 +24,7 @@ def autosubmit():
         "idcard": "身份证,44010xxxxx"  # 把44010xxxxx替换成自己的身份证
     }
 
-    url = "http://wyjgzyy.govcloud.tencent.com/preorder/add"
+    url = "https://skyy.gzonline.gov.cn/preorder/add" #域名已变
 
     payload = json.dumps(person)
 
